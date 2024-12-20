@@ -1,6 +1,5 @@
+Pillow
 streamlit
-opencv-python
 stegano
-pillow
+opencv-python
 imageio
-
