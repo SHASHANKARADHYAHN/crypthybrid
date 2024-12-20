@@ -1,0 +1,43 @@
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+        background-color: #ebdceb;
+        padding: 20px;
+    }
+    [data-testid="stSidebar"] h1 {
+        color: #F7DC6F;
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    [data-testid="stSidebar"] button {
+        background-color: #3498DB;
+        color: white;
+        border: none;
+        
+        font-size: 5em;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    [data-testid="stSidebar"] button:hover {
+        background-color: #acc8da;
+    }
+    
+    /* Main content area */
+    .stApp {
+        background-color: #F4F6F7;
+        color: #0d1318da;
+        font-family: 'Arial', sans-serif;
+        padding: 30px;
+    }
+    .stApp h1, .stApp h2, .stApp h3 {
+        color: #1C2833;
+    }
+    
+    /* Button active state */
+    button[aria-pressed="true"] {
+        background-color: #d6ba3d !important;
+        color: #a2c5da !important;
+    }
+    
