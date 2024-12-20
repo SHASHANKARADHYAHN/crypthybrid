@@ -18,7 +18,7 @@ def make_gif(parent_folder, fname):
         key=lambda p: int(p.split("-")[1].split(".")[0])
     )
 
-    with imageio.get_writer(f"{fname}.gif", mode="I", duration=0.1) as writer:
+    with imageio.get_writer(f"{fname}.gif", mode="I", duration=0.9) as writer:
         for filename in sorted_png:
             image = imageio.imread(os.path.join(parent_folder, filename))
             writer.append_data(image)
